@@ -1,16 +1,8 @@
-# importar la libreria nltk
-import nltk
-nltk.download('punkt_tab')
-# desde nltk descargar el paquete stopwords
-from nltk.corpus import stopwords
-nltk.download('stopwords')
-#definir la ruta de los archivos de nltk
-nltk.data.path.append(r'C:/Users/igonzsu/AppData/Roaming/nltk_data')
 # Vamos a importar NLTK (Natural Language Toolkit) que nos va a ayudar a trabajar con lenguaje natural
 import nltk
 
 # Definir la ruta donde se almacenarán los datos descargados de NLTK
-nltk.data.path.append('C:\\Users\\yeiso\\AppData\\Local\\nltk_data')
+nltk.data.path.append(r'C:/Users/igonzsu/AppData/Roaming/nltk_data')
 
 # Descargamos la lista de palabras vacías stopwords que son palabras comunes como el, la, los, etc.
 nltk.download('stopwords')
@@ -30,6 +22,7 @@ texto = """
 Leonardo duarte
 Maria Cristina
 Alejandro
+
 """
 
 # Tokenización: Convertimos el texto en una lista de palabras individuales
