@@ -3,6 +3,5 @@ import nltk
 # desde nltk descargar el paquete stopwords
 from nltk.corpus import stopwords
 nltk.download('stopwords')
-lista_stopwords = stopwords.words('spanish')
-#imprimir las stopwords
-print(lista_stopwords)
+#definir la ruta de los archivos de nltk
+nltk.data.path.append('C:/Users/igonzsu/AppData/Roaming/nltk_data')
